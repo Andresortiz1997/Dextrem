@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+/*
+Colores
+#525252
+#414141
+#313131
+#8F43EE
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family:'Geologica', sans-serif ;
+    font-size: 62.5%;
+
+}
+
+h1{font-size: 4rem;}
+h2{font-size: 3rem;}
+p{font-family: 1.25rem;}
+
+/*header*/
+header{
+    background-color:#313131;
+}
+.navbar-brand img{
+    width: 80px;
+    margin:0;
+}
+.nav-item a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size:1.7rem; 
+    text-shadow: 1px -3px 7px rgba(88,58,58,0.49);
+    margin-right: 5px;
+}
+/* hero---------------------------------------------------- */
+.carrusel h1,h2, p{
+    font-size: 3rem;
+    text-shadow: 1px -3px 7px rgba(10, 8, 8, 0.49);
+    color:rgb(99, 22, 172);
+
+}
+/*main----------------------------------------------------*/
+.descripcion, .nosotros{
+    background-color:#414141 ;
+    padding: 100px;
+}
+.nosotros h3{
+    color: antiquewhite;
+    font-size: 2.5rem;
+}
+.descripcion p{
+    color:antiquewhite;
+    font-size: 1.2rem;
+}
+ 
