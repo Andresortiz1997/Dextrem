@@ -23,7 +23,7 @@ h1{font-size: 4rem;}
 h2{font-size: 3rem;}
 p{font-family: 1.25rem;}
 
-/*header*/
+/*header---------------------------------*/
 header{
     background-color:#313131;
 }
@@ -38,6 +38,7 @@ header{
     text-shadow: 1px -3px 7px rgba(88,58,58,0.49);
     margin-right: 5px;
 }
+/* Footer--------------------------------------------------- */
 footer{
     background-color: #414141;
     font-size: 1rem;
