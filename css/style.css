@@ -94,16 +94,58 @@ footer{
  /* Acuaticas------------------------------------ */
 .act-acuaticas{
     text-align: justify;
+    padding-bottom: 10px;
 }
 .act-acuaticas p{
     color: #313131;
     font-size: 2rem;
     margin-top: 30px;
 }
+.acuaticasdos{
+    background-color: #313131;
+}
+.acuaticasdos p{
+    color: antiquewhite;
+}
 
+/* Aereas------------------------------------------ */
+.act-aereas{
+    text-align: justify;
+    padding-bottom:10px ;
+}
+.act-aereas p{
+    color: #313131;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+.aereasdos{
+    background-color: #313131;
+}
+.aereasdos p{
+    color: antiquewhite;
+}
+
+/* Terrestres-------------------------------------- */
+.act-terrestres{
+    text-align: justify;
+    padding-bottom: 10px;
+}
+.act-terrestres p{
+    color: #313131;
+    font-size: 2rem;
+}
+.terrestresdos{
+    background-color: #414141;
+}
+.terrestresdos p{
+    color: antiquewhite;
+}
 /*Adaptabe-------------------------------------------------*/
 @media screen and (max-width: 767px){
     .navbar-brand{
         display:none;
+    }
+    .par{
+        display: none;
     }
 }
