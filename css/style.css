@@ -140,6 +140,36 @@ footer{
 .terrestresdos p{
     color: antiquewhite;
 }
+/* Contactos ----------------------------------------------*/
+.contactos .container{
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+.contactos .rectangulo{
+    margin-top: -5rem;
+    background-color: rgb(99, 22, 172);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px rgb(119, 35, 139);
+}
+.contactos .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.contactos .descripcion{
+    color: antiquewhite;
+    font-size: 1.2rem;
+}
+.contactos button{
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid rgb(99, 22, 172);
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2 ease-in-out;
+}
 /*Adaptabe-------------------------------------------------*/
 @media screen and (max-width: 767px){
     .navbar-brand{
